@@ -24,7 +24,7 @@
 ## Data Model
 
 
-![Fitness Studio Data Model](FitnesssStudioModel.png)
+![Fitness Studio Data Model](FitnessStudioModel.png)
 
 Our model is designed around the operations of a boutique fitness studio. The Members entity represents all individuals enrolled in the studio, and each member is linked to a Memberships record, which tracks their active plan, duration, and type. Memberships are further defined by the MembershipType entity, which specifies details such as pricing and class limits. Certain memberships also allow access to GuestPasses, which are associated with a specific membership and enable guests to attend classes.
 
